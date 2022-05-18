@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Pedidos</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/admin.css">
+
+</head>
+<body>
+   
+
+<section class="pedidos">
+
+   <h1 class="titulo">Pedidos</h1>
+
+   <div class="caja-contenedora">
+
+      <div class="caja">
+         <p> Id Usuario: <span>1</span> </p>
+         <p> Fecha: <span>10/02/2022</span> </p>
+         <p> Nombre : <span>Pepe</span> </p>
+         <p> Email : <span>example@example.com</span> </p>
+         <p> Teléfono : <span>12345678</span> </p>
+         <p> Direccion : <span>C/ ABCD</span> </p>
+         <p> Productos : <span>3 tomates</span> </p>
+         <p> Precio : <span>10€</span> </p>
+         <p> Método de pago : <span>Paypal</span> </p>
+         <form action="" method="POST">
+            <input type="hidden" name="id_pedido" value="">
+            <select name="actualizar_pago" class="dropdown">
+               <option value="" selected disabled></option>
+               <option value="pendiente">Pendiente</option>
+               <option value="completado">Completado</option>
+            </select>
+            <div class="flex-btn">
+               <input type="submit" name="actualizar_pedido" class="btn-opcion" value="Actualizar">
+               <a href="" class="btn-eliminar" onclick="">Eliminar</a>
+            </div>
+         </form>
+      </div>
+
+   </div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

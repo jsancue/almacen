@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Actualizar Productos</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/admin.css">
+
+</head>
+<body>
+
+<section class="actualizar-producto">
+
+   <h1 class="titulo">Actualizar Producto</h1>   
+
+   <form action="" method="post" enctype="multipart/form-data">
+      <input type="hidden" name="old_imagen" value="">
+      <input type="hidden" name="pid" value="">
+      <img src="" alt="">
+      <input type="text" name="nombre" placeholder="Nombre del producto" required class="caja" value="">
+      <input type="number" name="price" min="0" placeholder="enter product price" required class="caja" value="">
+      <select name="category" class="caja" required>
+         <option selected></option>
+         <option value="Verdura">Verdura</option>
+         <option value="Fruta">Fruta</option>
+         <option value="Carne">Carne</option>
+         <option value="Pescado">Pescado</option>
+      </select>
+      <textarea name="detalles" required placeholder="Detalles del producto" class="caja" cols="30" rows="10"></textarea>
+      <input type="file" name="imagen" class="caja" accept="image/jpg, image/jpeg, image/png">
+      <div class="flex-btn">
+         <input type="submit" class="btn" value="Actualizar Producto" name="actualizar_producto">
+         <a href="admin_productos.html" class="btn-opcion">Volver</a>
+      </div>
+   </form>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

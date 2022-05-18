@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Productos</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/admin.css">
+
+</head>
+<body>
+
+<section class="add-productos">
+
+   <h1 class="titulo">Añadir Productos</h1>
+
+   <form action="" method="POST" enctype="multipart/form-data">
+        <div class="flex">
+
+            <div class="inputs">
+                <input type="text" name="nombre" class="caja" required placeholder="Introduzca el nombre del producto">
+                <select name="categoria" class="caja" required>
+                    <option value="" selected disabled>Escoja una categoria</option>
+                    <option value="verdura">verdura</option>
+                    <option value="fruta">fruta</option>
+                    <option value="carne">carne</option>
+                    <option value="pescado">pescado</option>
+                </select>
+            </div>
+
+            <div class="inputs">
+                <input type="number" min="0" name="precio" class="caja" required placeholder="precio">
+                <input type="file" name="imagen" required class="caja" accept="image/jpg, image/jpeg, image/png">
+            </div>
+        </div>
+      <textarea name="detalles" class="caja" required placeholder="detalles" cols="30" rows="10"></textarea>
+      <input type="submit" class="btn" value="añadir producto" name="add_producto">
+   </form>
+
+</section>
+
+<section class="ver-productos">
+
+   <h1 class="titulo">Productos añadidos</h1>
+
+   <div class="caja-contenedora">
+
+    <div class="caja">
+        <div class="precio"></div>
+        <img src="" alt="imagen del producto">
+        <div class="nombre"></div>
+        <div class="categoria"></div>
+        <div class="detalles"></div>
+
+        <div class="flex-btn">
+            <a href="" class="btn-opcion">actualizar</a>
+            <a href="" class="btn-eliminar" onclick="">borrar</a>
+        </div>
+    </div>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

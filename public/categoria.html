@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Categoría</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+<section class="productos">
+
+   <h1 class="titulo">Productos por Categoría</h1>
+
+   <div class="caja-contenedora">
+
+    <form action="" class="caja" method="POST">
+        <div class="precio">€<span>1</span>/-Kg</div>
+        <a href="" class="fa-solid fa-eye"></a>
+        <img src="" alt="foto producto">
+        <div class="nombre"></div>
+        <input type="hidden" name="pid" value="">
+        <input type="hidden" name="p_nombre" value="">
+        <input type="hidden" name="p_precio" value="">
+        <input type="hidden" name="p_imagen" value="">
+        <input type="number" min="1" value="1" name="p_cantidad" class="cantidad">
+        <input type="submit" value="Añadir a la Wishlist" class="btn-opcion" name="add_wishlist">
+        <input type="submit" value="Añadir al Carrito" class="btn" name="add_carrito">
+     </form>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+<?php include 'footer.php'; ?>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

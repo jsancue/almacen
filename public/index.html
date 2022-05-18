@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comprix | Inicio</title>
+    <meta
+      name="description"
+      content="Comprix, un almacen de productos frescos, saludables y orgánicos al mejor precio."
+    />
+
+    <!-- Formato favicon recomendado -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/iconos/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/iconos/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/iconos/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/iconos/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/iconos/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/iconos/safari-pinned-tab.svg"
+      color="#27ae60"
+    />
+    <meta name="apple-mobile-web-app-title" content="Comprix" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="application-name" content="Comprix" />
+    <meta name="msapplication-TileColor" content="#27ae60" />
+    <meta
+      name="msapplication-config"
+      content="assets/iconos/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#27ae60" />
+
+    <!--facebook meta-->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://comprix.netlify.app/index.html" />
+    <meta property="og:title" content="Comprix | Inicio" />
+    <meta
+      property="og:image"
+      content="assets/icon/android-chrome-192x192.png"
+    />
+    <meta
+      property="og:description"
+      content="Comprix, un almacen de productos frescos, saludables y orgánicos al mejor precio."
+    />
+    <meta property="og:site_name" content="Comprix" />
+    <meta property="og:locale" content="es_ES" />
+    <!-- Las siguientes etiquetas son opcionales, pero recomendadas -->
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!--twitter meta-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@comprix" />
+    <meta name="twitter:creator" content="@comprix" />
+    <meta name="twitter:url" content="https://comprix.netlify.app/index.html" />
+    <meta name="twitter:title" content="Comprix | Inicio" />
+    <meta
+      name="twitter:description"
+      content="Comprix, un almacen de productos frescos, saludables y orgánicos al mejor precio."
+    />
+    <meta
+      name="twitter:image"
+      content="assets/icon/android-chrome-192x192.png"
+    />
+
+    <!-- Indicamos el idioma definido para la página actual -->
+    <link rel="alternate" href="index.html" hreflang="es" />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="flex">
+        <a href="index.jsp" class="logo">Comprix<span>.</span></a>
+
+        <nav class="navbar">
+          <a href="index.jsp">Inicio</a>
+          <a href="tienda.jsp">Tienda</a>
+          <a href="pedidos.jsp">Pedidos</a>
+          <a href="nosotros.jsp">Sobre Nosotros</a>
+          <a href="contacto.jsp">Contacto</a>
+        </nav>
+
+        <div class="iconos">
+          <div id="menu-btn" class="fa-solid fa-bars"></div>
+          <div id="user-btn" class="fa-solid fa-user"></div>
+          <a href="buscar.jsp" class="fa-solid fa-search"></a>
+          <a href="wishlist.jsp"
+            ><i class="fa-solid fa-heart"></i><span>(0)</span></a
+          >
+          <a href="carrito.jsp"
+            ><i class="fa-solid fa-shopping-cart"></i><span>(0)</span></a
+          >
+        </div>
+
+        <div class="perfil">
+          <img src="" alt="" />
+          <p></p>
+          <a href="admin_actualizar_perfil.jsp" class="btn"
+            >Actualizar perfil</a
+          >
+          <a href="logout.jsp" class="btn-eliminar">Cerrar Sesión</a>
+
+          <div class="flex-btn">
+            <a href="login.jsp" class="btn-opcion">Iniciar Sesión</a>
+            <a href="register.jsp" class="btn-opcion">Regístrate</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="carousel-bg">
+      <section class="carousel">
+        <div class="contenido">
+          <span>no te agobies, organizate</span>
+          <h3>Consigue tu YO mas saludable con Comprix</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto natus
+            culpa officia quasi, accusantium explicabo?
+          </p>
+          <a href="nosotros.html" class="btn">Sobre Nosotros</a>
+        </div>
+      </section>
+    </div>
+
+    <section class="inicio-categoria">
+      <h1 class="titulo">Productos por Categoria</h1>
+
+      <div class="caja-contenedora">
+        <div class="caja">
+          <img
+            src="./assets/img/frutas.png"
+            alt="Foto de la Categoria Frutas"
+          />
+          <h3>Frutas</h3>
+          <p>
+            Más salud y sabor, conoce las frutas de temporada en España y su
+            origen.
+          </p>
+          <a href="" class="btn">Frutas</a>
+        </div>
+
+        <div class="caja">
+          <img src="./assets/img/carne.png" alt="Foto de la Categoria Carne" />
+          <h3>Carne</h3>
+          <p>
+            Productos cárnicos de elaboración propia con la mejor garantía de
+            calidad.
+          </p>
+          <a href="" class="btn">Carne</a>
+        </div>
+
+        <div class="caja">
+          <img
+            src="./assets/img/verduras.png"
+            alt="Foto de la Categoria Verduras"
+          />
+          <h3>Verduras</h3>
+          <p>
+            Los mejores productos frescos, y saludables con calidad certificada.
+          </p>
+          <a href="" class="btn">Verduras</a>
+        </div>
+
+        <div class="caja">
+          <img
+            src="./assets/img/pescado.png"
+            alt="Foto de la Categoria Pescado"
+          />
+          <h3>Pescado</h3>
+          <p>
+            Productos capturados mediante pesca artesanal selectiva, que respeta
+            el medioambiente.
+          </p>
+          <a href="" class="btn">Pescado</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="productos">
+      <h1 class="titulo">Últimos Productos</h1>
+
+      <div class="caja-contenedora">
+        <form action="" class="caja" method="POST">
+          <div class="precio">€<span>1</span>/-Kg</div>
+          <a href="" class="fa-solid fa-eye"></a>
+          <img src="" alt="foto producto" />
+          <div class="nombre"></div>
+          <input type="hidden" name="pid" value="" />
+          <input type="hidden" name="p_nombre" value="" />
+          <input type="hidden" name="p_precio" value="" />
+          <input type="hidden" name="p_imagen" value="" />
+          <input
+            type="number"
+            min="1"
+            value="1"
+            name="p_cantidad"
+            class="cantidad"
+          />
+          <input
+            type="submit"
+            value="Añadir a la Wishlist"
+            class="btn-opcion"
+            name="add_wishlist"
+          />
+          <input
+            type="submit"
+            value="Añadir al Carrito"
+            class="btn"
+            name="add_carrito"
+          />
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <section class="caja-contenedor">
+        <div class="caja">
+          <h3>Enlaces Rápidos</h3>
+          <a href="index.jsp"><i class="fa-solid fa-angle-right"></i> Inicio</a>
+          <a href="tienda.jsp"
+            ><i class="fa-solid fa-angle-right"></i> Tienda</a
+          >
+          <a href="about.jsp"
+            ><i class="fa-solid fa-angle-right"></i> Sobre Nosotros</a
+          >
+          <a href="contacto.jsp"
+            ><i class="fa-solid fa-angle-right"></i> Contacto</a
+          >
+        </div>
+
+        <div class="caja">
+          <h3>Enlaces Útiles</h3>
+          <a href="carrito.jsp"
+            ><i class="fa-solid fa-angle-right"></i> Carrito</a
+          >
+          <a href="wishlist.jsp"
+            ><i class="fa-solid fa-angle-right"></i> Lista de Deseos</a
+          >
+          <a href="login.jsp"
+            ><i class="fa-solid fa-angle-right"></i> Iniciar Sesión</a
+          >
+          <a href="register.jsp"
+            ><i class="fa-solid fa-angle-right"></i> Regístrarse</a
+          >
+        </div>
+
+        <div class="caja">
+          <h3>Información</h3>
+          <p><i class="fa-solid fa-phone"></i>956 12 34 56</p>
+          <p><i class="fa-solid fa-phone"></i>956 11 22 33</p>
+          <p><i class="fa-solid fa-envelope"></i>jsancue2103@gmail.com</p>
+          <p><i class="fa-solid fa-map-marker-alt"></i>Cádiz, España - 11500</p>
+        </div>
+
+        <div class="caja">
+          <h3>Síguenos</h3>
+          <a href="javascript:void(0)"
+            ><i class="fa-brands fa-facebook-f"></i>Facebook</a
+          >
+          <a href="javascript:void(0)"
+            ><i class="fa-brands fa-twitter"></i>Twitter</a
+          >
+          <a href="javascript:void(0)"
+            ><i class="fa-brands fa-instagram"></i>Instagram</a
+          >
+          <a href="javascript:void(0)"
+            ><i class="fa-brands fa-linkedin"></i>LinkedIn</a
+          >
+        </div>
+      </section>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

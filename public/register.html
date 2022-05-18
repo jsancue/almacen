@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/componentes.css">
+
+</head>
+<body>
+<section class="form-container">
+
+    <form action="" enctype="multipart/form-data" method="POST">
+        <h3>Regístrate Ahora</h3>
+        <div class="form-grupo">
+            <label for="nombre">Nombre y Apellidos</label>
+            <i class="fa-solid fa-user"></i><input type="text" name="nombre" id="nombre" class="caja" placeholder="Introduzca su nombre" required />
+        </div>
+
+        <div class="form-grupo">
+            <label for="email"><i class="fa-solid fa-user"></i></label>
+            <input type="email" name="email" id="email" class="caja" placeholder="Introduzca su email" required />
+        </div>
+
+        <div class="form-grupo">
+            <label for="password"><i class="fa-solid fa-user"></i></label>
+            <input type="password" name="password" id="password" class="caja" placeholder="Introduzca su contraseña" required />
+        </div>
+
+        <div class="form-grupo">
+            <label for="cpassword"><i class="fa-solid fa-user"></i></label>
+            <input type="password" name="cpassword" id="cpassword" class="caja" placeholder="Confirme la contraseña" required />
+        </div>
+
+        <div class="form-grupo">
+            <label for="imagen"><i class="fa-solid fa-user"></i></label>
+            <input type="file" name="imagen" id="imagen" class="caja" accept="image/jpg, image/jpeg, image/png" required />
+        </div>
+
+        <input type="submit" class="btn" value="registrarse" name="submit">
+        <p>¿Ya tienes una cuenta? <a href="login.html">Login</a></p>
+    </form>
+
+</section>    
+</body>
+</html>
